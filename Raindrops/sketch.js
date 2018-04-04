@@ -10,7 +10,7 @@ class rainDrop {
 	}
 	show() {
 		stroke(100, 100, 100);
-		fill(this.color);
+		//fill(this.color);
 		line(this.x, this.y, this.x, this.y + 10);
 	}
 }
